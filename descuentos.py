@@ -40,7 +40,7 @@ def aplicar_descuento(subtotal, tipo_descuento, carrito, catalogo):
             cantidad = item[1]
             categoria = catalogo[id_prod].get("categoria", "").lower()
 
-            if categoria == "pan":
+            if categoria == "panaderia":
                 cant_pan += cantidad
             elif categoria == "bebida":
                 cant_bebida += cantidad

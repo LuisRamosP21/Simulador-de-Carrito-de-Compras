@@ -2,7 +2,7 @@
 """
 Created on Wed Sep 16 19:25:03 2026
 
-@author: marie
+@author: Leo
 """
 
 def agregar_producto(carrito, catalogo, id_producto, cantidad):

@@ -1,12 +1,11 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue Sep 15 21:37:51 2026
-
 @author: marie
 """
 
 def cargar_catalogo():
-  catalogo = {
+    catalogo = {
         "p1": {"nombre":"Pan de muerto ", "precio":40, "categoria": "panaderia", "stock":50},
         "p2": {"nombre":"Dona de chocolate","precio":20, "categoria": "panaderia","stock":30 },
         "p3": {"nombre":"Dona de azucar", "precio": 16, "categoria": "panaderia", "stock":25},
@@ -23,27 +22,24 @@ def cargar_catalogo():
         "p14": {"nombre": "Cafe de olla", "precio": 35, "categoria": "bebida", "stock":40},
         "p15": {"nombre": "Champurrado", "precio": 35, "categoria": "bebida", "stock":40},
         "p16": {"nombre": "Cafe americano", "precio": 35, "categoria": "bebida", "stock":40},
-        }
-  return catalogo
+    }
+    return catalogo
+
 
 def mostrar_catalogo(catalogo):
-    print("\n" + "="*40)
+    print("\n" + "=" * 40)
     print("MENÚ")
-    print("\n PANADERÍA" )
+    print("\n PANADERÍA")
     for produ, info in catalogo.items():
         if info.get("categoria") == "panaderia":
             print(f"  ({produ}) {info['nombre']} - ${info['precio']} - Disponible: {info['stock']}")
-            
-    print("\n BEBIDAS" )
+
+    print("\n BEBIDAS")
     for produ, info in catalogo.items():
         if info.get("categoria") == "bebida":
             print(f"  ({produ}) {info['nombre']} - ${info['precio']} - Disponible: {info['stock']}")
-    
-print("-" * 40)
 
-mi_catalogo = cargar_catalogo()  
-mostrar_catalogo(mi_catalogo)   
-
+    print("-" * 40)
 
 
 

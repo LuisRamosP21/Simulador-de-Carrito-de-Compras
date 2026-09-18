@@ -1,3 +1,4 @@
+ feature/catalogo
 # Simulador-de-Carrito-de-Compras
 Implementación de un sistema funcional de carrito de compras aplicando tipos de datos compuestos (listas, tuplas, diccionarios), estructuras de control, funciones modulares, y colaboración real mediante Git con ramas y resolución de conflictos.
 
@@ -7,3 +8,10 @@ Maria Esmeralda Estrada Guarneros — Encargado de Catálogo (Definición y mant
 Leovardo Tonacalt Hernandez — Encargado de Carrito (Funciones para agregar y eliminar productos del carrito).
 Nora Arely Villa Ocotl — Encargado de Totales y Descuentos (Cálculo de subtotales, reducción por cupones y netos).
 Cesar Brayan Zamorano Parada — Encargado del  ticket.
+=======
+ feature/descuentos
+# Titulo desde rama descuentos
+=======
+# Titulo desde main
+ main
+main

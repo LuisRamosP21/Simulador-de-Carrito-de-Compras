@@ -69,3 +69,11 @@ def modificar_producto(carrito, catalogo, id_producto, nueva_cantidad):
 
     print("El producto no está en el carrito para modificar.")
     return carrito
+
+def calcular_subtotal(carrito, catalogo):
+    subtotal = 0
+    for item in carrito:
+        id_prod, cantidad = item
+        if id_prod in catalogo:
+            subtotal += catalogo[id_prod]["precio"] * cantidad
+    return subtotal
